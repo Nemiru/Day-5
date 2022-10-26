@@ -1,0 +1,84 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(/rrc/map-img.jpg);
+}
+
+.div {
+    width: 60%;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    background-color: antiquewhite;
+
+}
+
+.card h1 {
+    background-color: antiquewhite;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.card p {
+    background-color: antiquewhite;
+    margin: 5px 20px 5px 20px ;
+}
+.cardContainer {
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card img {
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+    margin: 20px 10px 20px 10px;
+    box-shadow: 5px 10px rgb(45, 45, 221);
+}
+
+.price {
+    color: blue;
+}
+
+header {
+    text-align: center;
+    color: rgb(45, 45, 221);
+}
+header p {
+    color: wheat;
+}
+
+@media (max-width: 800px) {
+    .card {
+      flex-direction: column;
+    }
+  }
+
+footer p {
+    text-align: center;
+}
+
+footer img{
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+h1 img{
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
